@@ -5,18 +5,50 @@
 
 }
 
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: fuenterdr;
+    src: url(fonts/fuenterdr.ttf);
+}
+
 body{
 
-    background-color: rgb(152, 152, 249);
-
+    background-color: black;
 
 }
 
+header{
 
-p{
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
+    background-image: url(img/fondoweb.jpg);
+    background-size: cover;
+    font-family: fuenterdr;
+    color: white;
     text-align: center;
+    padding-top: 5%;
 
 }
+
+
+header > hgroup{
+
+    padding-bottom: 30%;
+    margin-bottom: 45%;
+    font-size: 2.5em;
+
+
+}
+
+
+#name{
+
+    color: black;
+
+}
+
