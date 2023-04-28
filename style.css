@@ -78,6 +78,7 @@ header > hgroup{
     margin: 20px;
     margin-left: 30px;
     transition: all 0.5s;
+    position: fixed;
 
 }
 
