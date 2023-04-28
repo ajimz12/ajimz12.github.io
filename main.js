@@ -6,3 +6,15 @@ navToggle.addEventListener("click", () => {
     navMenu.classList.toggle("navbar_visible")
 
 })
+
+
+const imagen = document.getElementById("sansimg");
+const audio = document.getElementById("audiosans");
+
+imagen.addEventListener("mouseover", function() {
+    audio.play();
+  });
+  
+  imagen.addEventListener("mouseout", function() {
+    audio.pause();
+  });
