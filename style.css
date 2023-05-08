@@ -429,20 +429,20 @@ footer{
 
     .navbar{
 
-    flex-direction: column;
-    background-color: #ca0c06;
-    align-items: center;
-    margin: 0;
-    position: fixed;
-    left: 0;
-    top: 80px;
-    width: 100%;
-    padding: 20px 0;
-    padding-bottom: 20%;
-    padding-top: 20%;
-    font-size: 1.7em;
-    left: 100%;   
-    transition: left 0.3s;
+        flex-direction: column;
+        background-color: #ca0c06;
+        align-items: center;
+        margin: 0;
+        position: fixed;
+        left: 0;
+        top: 80px;
+        width: 100%;
+        padding: 20px 0;
+        padding-bottom: 20%;
+        padding-top: 20%;
+        font-size: 1.7em;
+        left: 100%;   
+        transition: left 0.3s;
 
     }
 
