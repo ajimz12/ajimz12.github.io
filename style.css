@@ -240,22 +240,36 @@ header > hgroup{
 #sansimg{
 
     cursor: pointer;
+    transition: width 0.5s;
+
+}
+
+#sansimg:hover{
+
+    width: 25em;
 
 }
 
 .skills{
 
     margin-top: 5%;
-    text-align: center;
     padding-bottom: 10%;
     font-family: fuentegta;
     font-size: 4em;
+    background-image: url(img/bigsmokebackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 15%;
+
 }
 
 
 .skills h2{
 
-    color: white;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 5%;
 
 }
 
@@ -266,11 +280,13 @@ header > hgroup{
     max-width: 500px;
     width: 100%;
     background: #fff;
-    margin: 0 15px;
     padding: 10px 20px;
+    margin-left: 5%;
     border-radius: 7px;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
+
 
 
 }
@@ -289,6 +305,8 @@ header > hgroup{
     font-weight: 600;
     color: #333;
     font-size: 0.5em;
+    font-weight: lighter;
+
 
 }
 
@@ -310,30 +328,36 @@ header > hgroup{
     height: 100%;
     width: 90%;
     border-radius: 6px;
-    background: #4070f4;
+    background: #fb3232;
     animation: progress 0.4s ease-in-out forwards;
     opacity: 0;
+}
+
+.skill-per.html{
+
+    width: 70%;
+    animation-delay: 0.2s;
 }
 
 
 .skill-per.css{
 
     width: 70%;
-    animation-delay: 0.1s;
+    animation-delay: 0.4s;
 }
 
 
 .skill-per.java{
 
     width: 50%;
-    animation-delay: 0.2s;
+    animation-delay: 0.6s;
 }
 
 
 .skill-per.sql{
 
     width: 30%;
-    animation-delay: 0.3s;
+    animation-delay: 0.8s;
 }
 
 
@@ -352,13 +376,13 @@ header > hgroup{
 .skill-per .tooltip{
     position: absolute;
     right: -14px;
-    top: -28px;
-    font-size: 9px;
+    top: -35px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     padding: 2px 6px;
     border-radius: 3px;
-    background: #4070f4;
+    background: #fb3232;
     z-index: 1;
 }
 
@@ -372,7 +396,7 @@ header > hgroup{
     height: 10px;
     width: 10px;
     z-index: -1;
-    background-color: #4070f4;
+    background-color: #fb3232;
     transform: translateX(-50%) rotate(45deg);
 
 }
