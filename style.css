@@ -418,6 +418,60 @@ header > hgroup{
 
 
 
+/* PROJECTS */
+
+
+.projects{
+
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+
+.followeye{
+
+    width: 110px;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+.eye{
+
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    background: rgb(42,0,2);
+    background: linear-gradient(98deg, rgba(42,0,2,1) 0%, rgba(240,140,20,1) 53%,
+     rgba(105,0,5,1) 100%);;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+
+}
+
+
+.ball{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 150px;
+    background: #000;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    border: 10px solid #c24100;
+}
+
+
+
+
+
 
 
 footer{
@@ -435,6 +489,7 @@ footer{
 
 
 
+
 /*  MEDIA QUERYS   */
 
 
@@ -443,7 +498,14 @@ footer{
 
     header > hgroup{
 
-        font-size: 1.5em;
+        font-size: 2em;
+        margin-top: 15%;
+
+    }
+
+    .presentacion{
+
+        font-size: 0.8em;
 
     }
 
