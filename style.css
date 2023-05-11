@@ -8,12 +8,9 @@
 }
 
 
-*{
 
-    margin: 0;
-    padding: 0;
+/* FONTS */
 
-}
 
 @font-face {
     font-family: fuenterdr;
@@ -37,7 +34,7 @@
 }
 
 @font-face {
-    font-family: fuentepapersplease;
+    font-family: fuentepp;
     src: url(fonts/fuentepp.ttf);
 }
 
@@ -59,6 +56,9 @@ body{
 
 
 /*  HEADER  */
+
+
+
 
 header{
 
@@ -289,6 +289,10 @@ header > hgroup{
 }
 
 
+
+/* SKILLS BARS */
+
+
 .container-skills{
 
     position: relative;
@@ -427,7 +431,7 @@ header > hgroup{
 
 
 
-/* PROJECTS */
+/* PROJECTS SECTION */
 
 
 .projects{
@@ -470,6 +474,9 @@ header > hgroup{
     color: #c44800;
 
 }
+
+
+/* SAURON EYE */
 
 
 .followeye{
@@ -536,9 +543,36 @@ header > hgroup{
 
 
 
+/* CONTACT */
 
 
 
+    .contact{
+
+        margin-top: 20%;
+        background-image: url(img/paperswallp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
+    .contact h2{
+
+        font-family: fuentepp;
+        font-size: 6em;
+        color: white;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+
+
+
+
+
+
+/* FOOTER */
 
 
 footer{
@@ -599,7 +633,7 @@ footer{
     }
 
 
-    /* NAVEGACION  */
+    /* NAVEGATION  */
 
     .navbar{
 
@@ -643,7 +677,7 @@ footer{
       }
 
 
-    /*  SECCION ABOUT ME */
+    /* ABOUT ME */
 
 
     .about-items{
@@ -671,7 +705,7 @@ footer{
     
     }
 
-    /* SECCION SKILLS*/
+    /* SKILLS SECTION */
 
 
     .skills{
@@ -687,6 +721,9 @@ footer{
         background-position-x: 52%;
     
     }
+
+
+    /* SKILLS BARS */
 
 
     .container-skills{
@@ -723,7 +760,7 @@ footer{
     }
 
 
-    /* SECCION PROJECTS*/
+    /* PROJECTS SECTION */
 
 
     .projects h2{
@@ -731,6 +768,9 @@ footer{
         font-size: 2em;
 
     }
+
+
+    /* SAURON EYE */
 
 
     .followeye{
