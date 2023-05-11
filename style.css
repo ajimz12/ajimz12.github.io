@@ -266,11 +266,10 @@ header > hgroup{
     padding-bottom: 10%;
     font-family: fuentegta;
     font-size: 4em;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8),
-    rgba(70, 16, 16, 0.9)), url(img/bigsmokebackground.png);
+    background-image:url(img/bigsmokebackground.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 15%;
+    margin: 5%;
 
 }
 
