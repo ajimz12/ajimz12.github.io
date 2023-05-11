@@ -33,7 +33,12 @@
 
 @font-face {
     font-family: fuenteesdla;
-    src: url(fonts/anirb___.ttf);
+    src: url(fonts/fuenteesdla.ttf);
+}
+
+@font-face {
+    font-family: fuentepapersplease;
+    src: url(fonts/fuentepp.ttf);
 }
 
 
