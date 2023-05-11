@@ -35,8 +35,8 @@ imagen.addEventListener("mouseover", function() {
   var ball = document.getElementsByClassName("ball");
     document.onmousemove = function(){
 
-      var x = event.clientX * 50 / window.innerHeight + "%";
-      var y= event.clientY * 50 / window.innerHeight + "%";
+      var x = event.clientX * 55 / window.innerHeight + "%";
+      var y= event.clientY * 55 / window.innerHeight + "%";
 
       for(var i=0; i<2; i++){
 

@@ -452,6 +452,7 @@ header > hgroup{
     margin: 40px;
     border-radius: 50%;
     border: 1px solid #000;
+    transition: all 0.2s;
 
 }
 
@@ -466,7 +467,30 @@ header > hgroup{
     transform: translate(-50%, 50%);
     border-radius: 50%;
     border: 10px solid #c24100;
+    transition: all 0.2s;
+
 }
+
+
+.eye:hover{
+
+
+    width: 320px;
+    height: 220px;
+    background: linear-gradient(98deg, rgba(42,0,2,1) 0%, rgb(255, 94, 0) 53%,
+    rgb(193, 187, 14) 100%);;
+
+}
+
+.ball:hover{
+
+    width: 75px;
+    height: 170px;
+    border: 10px solid #890902;
+
+
+}
+
 
 
 
