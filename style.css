@@ -563,8 +563,10 @@ header > hgroup{
         font-size: 6em;
         color: white;
         text-align: center;
-        padding-bottom: 10%;
+        padding-bottom: 8%;
     }
+
+
 
 
 
@@ -769,6 +771,12 @@ footer{
 
     }
 
+    .projects h3{
+
+        font-size: 1.5em;
+
+    }
+
 
     /* SAURON EYE */
 
@@ -813,6 +821,16 @@ footer{
         border: 5px solid #c24100;
         transition: all 0.2s;
     
+    }
+
+
+    /* CONTACT */
+
+
+    .contact{
+
+        display: none;
+
     }
 
 
