@@ -38,6 +38,13 @@
     src: url(fonts/fuentepp.ttf);
 }
 
+@font-face{
+
+    font-family: fuentepp2;
+    src: url(fonts/fuentepp2.ttf);
+
+}
+
 
 html{
 
@@ -553,6 +560,15 @@ header > hgroup{
         background-image: url(img/paperswallp.png);
         background-repeat: no-repeat;
         background-size: cover;
+        font-family: fuentepp2;
+
+    }
+
+
+    .contact > div{
+
+
+        display: flex;
 
     }
 
@@ -565,6 +581,62 @@ header > hgroup{
         text-align: center;
         padding-bottom: 8%;
     }
+
+
+    .passportimg{
+
+
+        height: 35%;
+        width: 35%;
+        margin-left: 3%;
+
+    }
+
+
+    .contacts{
+
+        width: 50%;
+        height: 50%;
+        margin-left: 10%;
+        margin-right: 25%;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .redes{
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .redes p{
+
+        margin-top: 7%;
+        font-size: 2em;
+
+    }
+
+    .redes i{
+
+        color: white;
+        margin: 30%;
+        font-size: 3em;
+
+    }
+
+
+    .redes i:hover{
+
+        color:#890902;
+
+
+    }
+
+
+        
 
 
 
@@ -765,6 +837,7 @@ footer{
     /* PROJECTS SECTION */
 
 
+
     .projects h2{
 
         font-size: 2em;
@@ -829,7 +902,15 @@ footer{
 
     .contact{
 
-        display: none;
+
+    }
+
+
+    .passport{
+
+        height: 50%;
+        width: 50%;
+
 
     }
 
