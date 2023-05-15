@@ -561,16 +561,17 @@ header > hgroup{
         background-repeat: no-repeat;
         background-size: cover;
         font-family: fuentepp2;
+        padding-bottom: 20%;
 
     }
 
-
-    .contact > div{
-
+    .contact-info{
 
         display: flex;
+        flex-direction: row;
 
     }
+
 
 
     .contact h2{
@@ -586,12 +587,66 @@ header > hgroup{
     .passportimg{
 
 
-        height: 35%;
-        width: 35%;
-        margin-left: 3%;
+        height: 90%;
+        width: 90%;
+        margin-left: 10%;
 
     }
 
+
+    form{
+
+        margin-left: 15%;
+        font-family: fuentepp2;
+        font-size: 1.2em;
+
+
+    }
+
+    .form-group{
+
+        margin: 10%;
+    
+
+    }
+
+    .form-group > input, textarea{
+
+        height: 100%;
+        width: 100%;
+        padding: 10%;
+        font-family: fuentepp2;
+        font-size: 1.2em;
+
+
+    }
+
+
+    form > .btn{
+
+        font-family: fuentepp2;
+        font-size: 1.2em;
+        margin-left: 35%;
+        padding: 5%;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+
+    form > .btn:hover{
+
+
+        color: white;
+        background-color: #742018;
+
+    }
+
+
+
+
+
+    
 
 
 
@@ -633,7 +688,7 @@ footer{
 
 .social-media a:hover{
 
-    color: #d81208;
+    color: #742018;
 
 }
 
@@ -822,13 +877,13 @@ footer{
 
     .projects h2{
 
-        font-size: 2em;
+        font-size: 1.2em;
 
     }
 
     .projects h3{
 
-        font-size: 1.5em;
+        font-size: 1em;
 
     }
 
@@ -882,20 +937,74 @@ footer{
     /* CONTACT */
 
 
-    .contact{
+    .contact h2{
 
-        display: none;
+        font-size: 3.5em;
+        margin-top: 5%;
+
+    }
 
 
+    .contact-info{
+
+        display: flex;
+        flex-direction: column;
 
     }
 
 
     .passport{
 
-        height: 50%;
-        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 5%;
 
+    }
+
+
+    .passportimg{
+
+        height: 80%;
+        width: 80%;
+
+    }
+
+
+    form{
+
+        margin-left: 15%;
+        font-family: fuentepp2;
+        font-size: 0.8em;
+
+
+    }
+
+    .form-group{
+
+
+        margin-right: 20%;
+
+   
+    }
+
+    .form-group > input, textarea{
+
+        height: 100%;
+        width: 100%;
+        font-family: fuentepp2;
+        font-size: 1.2em;
+
+
+    }
+
+
+    form > .btn{
+
+        font-family: fuentepp2;
+        font-size: 1.2em;
+        margin-left: 30%;
+        padding: 5%;
+        text-align: center;
+        cursor: pointer;
 
     }
 
